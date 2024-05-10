@@ -1,0 +1,12 @@
+# 06_pyproject.toml
+# Modern Python package build file (PEP 621)
+
+[project]
+name = "my-awesome-package"
+version = "0.1.0"
+description = "A simple Python package"
+authors = [{name="Ajay"}]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
