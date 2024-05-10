@@ -1,0 +1,6 @@
+# 02_requirements.txt
+# Generate with: pip freeze > requirements.txt
+
+requests
+flask
+pytest
