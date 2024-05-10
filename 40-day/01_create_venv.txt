@@ -1,0 +1,9 @@
+# 01_create_venv.txt
+# Creating a virtual environment
+
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# Install packages inside venv
+pip install requests flask pytest
