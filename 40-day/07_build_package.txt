@@ -1,0 +1,10 @@
+# 07_build_package.txt
+# How to build your package
+
+# Install wheel:
+pip install wheel
+
+# Build:
+python setup.py sdist bdist_wheel
+
+# Output will be in dist/
