@@ -1,0 +1,2 @@
+# requirements for simple password generator (no external deps required)
+# nothing required; kept for template
