@@ -1,13 +1,14 @@
 # ML Pipeline — Credit Card Fraud Detection
 
-## Run EDA pipeline:
+## Run EDA:
+python src/eda/eda_runner.py
 
-This performs:
-- Data cleaning
-- Duplicate removal
-- Missing value report
-- Class imbalance plot
-- Distribution plots
-- Correlation heatmap
+## Run Preprocessing:
+python src/preprocessing/run_preprocessing.py
 
-Cleaned dataset saved at:
+This stage performs:
+- Train/Val/Test split
+- Scaling (Standard, Robust, MinMax)
+- Feature engineering (Hour)
+- SMOTE oversampling
+- Pipeline saving to artifacts/preprocessing.pkl
