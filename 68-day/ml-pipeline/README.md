@@ -1,14 +1,15 @@
-# ML Pipeline — Credit Card Fraud Detection
+# ML Pipeline — Model Training (Day 71)
 
-## Run EDA:
-python src/eda/eda_runner.py
+## Run training:
 
-## Run Preprocessing:
-python src/preprocessing/run_preprocessing.py
-
-This stage performs:
-- Train/Val/Test split
-- Scaling (Standard, Robust, MinMax)
-- Feature engineering (Hour)
-- SMOTE oversampling
-- Pipeline saving to artifacts/preprocessing.pkl
+This will:
+- Load preprocessing outputs
+- Train Logistic Regression
+- Train Random Forest
+- Train Gradient Boosting
+- Evaluate all models
+- Save:
+    - artifacts/logistic.pkl
+    - artifacts/rf.pkl
+    - artifacts/gb.pkl
+    - artifacts/best_model.pkl
