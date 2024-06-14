@@ -1,4 +1,10 @@
-# Python Learning Journey
-Starting Python from April 1.
+# DL Day 2 — Neural Network From Scratch (XOR Problem)
 
-Day 1 completed – learned print, comments, basics.
+This project implements:
+- 2-layer neural network
+- Sigmoid activation
+- Forward & backward propagation
+- Gradient descent
+- Trained on XOR dataset
+
+Run training:
