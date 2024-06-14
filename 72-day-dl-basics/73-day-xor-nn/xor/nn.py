@@ -1,6 +1,7 @@
 import numpy as np
 
 class NeuralNet:
+    from xor.backprop import backward
     def __init__(self, input_dim=2, hidden_dim=2, output_dim=1, lr=0.1):
         # initialize weights
         self.W1 = np.random.randn(input_dim, hidden_dim)
