@@ -7,3 +7,11 @@ def build_model():
         layers.Dense(1, activation='sigmoid')
     ])
     return model
+
+def compile_model(model):
+    model.compile(
+        optimizer='adam',
+        loss='binary_crossentropy',
+        metrics=['accuracy']
+    )
+    return model
