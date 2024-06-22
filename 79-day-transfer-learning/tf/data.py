@@ -12,3 +12,5 @@ def load_dataset():
     X_test = tf.image.grayscale_to_rgb(X_test) / 255.0
 
     return (X_train, y_train), (X_test, y_test)
+
+    
