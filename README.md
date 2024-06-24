@@ -1,10 +1,11 @@
-# DL Day 2 — Neural Network From Scratch (XOR Problem)
+# DL Day 12 — ResNet Basics (Custom Residual Blocks)
 
-This project implements:
-- 2-layer neural network
-- Sigmoid activation
-- Forward & backward propagation
-- Gradient descent
-- Trained on XOR dataset
+Includes:
+- Theory of vanishing gradients
+- Why skip connections solve deep network training
+- Identity & projection shortcuts
+- Custom TensorFlow residual block
+- Mini ResNet model (32x32 → CIFAR compatible)
+- Demo script
 
-Run training:
+Run demo:
