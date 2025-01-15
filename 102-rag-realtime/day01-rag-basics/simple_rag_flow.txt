@@ -1,0 +1,16 @@
+User Query
+   |
+   v
+Text Embedding Model
+   |
+   v
+Vector Database (Similarity Search)
+   |
+   v
+Top-K Relevant Documents
+   |
+   v
+LLM with Retrieved Context
+   |
+   v
+Final Answer
