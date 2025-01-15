@@ -1,0 +1,5 @@
+RAG systems are used to enhance LLM accuracy.
+They retrieve relevant documents before generating responses.
+Document ingestion prepares raw data for retrieval.
+Chunking improves search precision and efficiency.
+Vector databases store embeddings of chunks.
