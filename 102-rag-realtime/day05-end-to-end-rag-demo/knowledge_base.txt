@@ -1,0 +1,6 @@
+RAG systems enhance language models by retrieving external knowledge.
+Embeddings convert text into numerical vectors.
+Chunking improves retrieval accuracy and reduces noise.
+Similarity search identifies the most relevant chunks.
+End-to-end RAG systems reduce hallucinations in LLM responses.
+RAG systems enhance language models by retrieving external knowledge. Embeddings convert text into numerical vectors. Chunking improves retrieval accuracy and reduces noise. Similarity search identifies the most relevant chunks. End-to-end RAG systems reduce hallucinations in LLM responses.
