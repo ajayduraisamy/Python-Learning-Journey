@@ -1,0 +1,21 @@
+## Key Learnings – Day 124
+
+- Prompt patterns reduce randomness
+- Role-based prompts guide reasoning style
+- Delimiters are mandatory for RAG
+- Patterns scale better than one-off prompts
+- Production prompts should always use patterns
+- Patterns should be specific to the task
+- Patterns should be specific to the model
+- Patterns should be specific to the data
+- Patterns should be specific to the team
+- Patterns should be specific to the user
+- Patterns should be specific to the environment
+- Patterns should be specific to the time
+- Patterns should be specific to the location
+- Patterns should be specific to the device
+- Patterns should be specific to the browser
+- Patterns should be specific to the operating system
+- Patterns should be specific to the network
+- Patterns should be specific to the hardware
+- Patterns should be specific to the software
